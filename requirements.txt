@@ -1,0 +1,7 @@
+fastapi>=0.110
+uvicorn>=0.29
+sqlglot>=23
+pydantic>=2
+anthropic>=0.40   # only for LLM_PROVIDER=anthropic
+pyodbc>=5         # only for DB_BACKEND=sqlserver
+PyJWT[crypto]>=2  # only for AUTH_MODE=jwt
